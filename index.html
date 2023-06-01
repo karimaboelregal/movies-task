@@ -24,11 +24,11 @@
 
     <section class="page-2 pt-5">
         <div class="container">
-            
+
             <div class="row justify-content-center d-none" id="loading">
                 <div class="spinner-border" role="status">
                     <span class="sr-only">Loading...</span>
-                  </div>
+                </div>
             </div>
 
             <div class="row text-center justify-content-sm-center" id="parent">
@@ -45,24 +45,29 @@
     </section>
 
 
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content ">
-            <button type="button" class="close x" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            <div class="d-flex">
-                <img id="modal-img" style="height: 500px; width: 40%"/>
-                <div class="d-flex flex-column pl-3">
-                  <h1 class="pt-4" id="modal-title"></h1>
-                  <h4 id="modal-rating" class="pt-4 pb-4"></h4>
-                  <p id="modal-desc"></p>
-                </div>      
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content ">
+                <button type="button" class="close x" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img id="modal-img" style="height: 500px; width: 100%" />
+                    </div>
+                    <div class="col-md-7">
+                        <div class="d-flex flex-column pl-3">
+                            <h1 class="pt-4" id="modal-title"></h1>
+                            <h4 id="modal-rating" class="pt-4 pb-4"></h4>
+                            <p id="modal-desc"></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
     </div>
-    
+
 
     <script id="card-template" type="text">
         <div class="col-md-3 col-sm-10 pb-3">
