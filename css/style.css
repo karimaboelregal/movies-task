@@ -1,0 +1,37 @@
+
+
+.movie-card {
+    height: 100%;
+    cursor: pointer;
+}
+
+.movie-card span {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.movie-card:hover {
+    background-color: whitesmoke;
+}
+
+.movie-card img {
+    padding-bottom: 5px
+}
+
+.x {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -30px;
+    cursor: pointer;
+    outline: none;
+    color: white
+}
+
+.x:hover {
+    color: whitesmoke;
+}
+
+#parent {
+    padding: 5px 40px
+}
